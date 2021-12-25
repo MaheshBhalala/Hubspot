@@ -1,0 +1,485 @@
+*{font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 25px;
+   
+}
+.english{
+    display: flex;
+}
+.ul-1{
+    margin: 0px 0px 0px 50px;
+}
+.ul-1 li a{
+    font-size: 0.6rem;
+    color: black;
+    text-decoration: none;
+}
+.ul-1 li a i{
+    font-size: 0.6rem;
+    color: black;
+    text-decoration: none;
+}
+.ul-1 li a:hover{
+    text-decoration: underline;
+}
+.ul-1 li a i{
+    font-size: 0.6rem;
+    margin: 0px 5px;
+}
+.about{
+    display: flex;
+}
+.ul-2{
+    display: flex;
+    margin: 0px 50px 0px 0px;
+}
+.ul-2 li{
+    margin: 0px 20px;
+}
+.ul-2 li a{
+    font-size: 0.6rem;
+    color: black;
+    text-decoration: none;
+}
+.ul-2 li a:hover{
+    text-decoration: underline;
+}
+.ul-2 li a i{
+    font-size: 0.6rem;
+    margin: 0px 5px;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.logo img{
+    width: 50px;
+    height: 30px;
+    margin: 5px 0px;
+}
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0px 0px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0px 0px 0px 100px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform:capitalize;
+}
+.menu ul li a:hover{
+    color: rgb(160, 129, 129);
+    text-decoration: underline;
+}
+.btn-1{
+    position: absolute;
+    right: 0;
+    margin: 10px 50px 10px 0px;
+    border: 1px solid #ff7a59;
+    background-color: #ff7a59;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 5px 15px;
+    color: white;
+}
+.btn-1:hover{
+    background-color:rgb(241, 134, 134);
+}
+.checkbtn{
+    position: absolute;
+    right: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px 30px;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+main{
+    margin-top: 50px;
+}
+
+#back-1 {
+    position: relative;
+    height: calc(500px - 100px);
+    width: 100vw;
+    top: 10px;
+    box-sizing: border-box;
+    
+  }
+  
+  #back-1 picture img {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+  }
+  
+  #back-1 picture {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+  }
+  
+  #back-1-content-override {
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+  }
+  
+  #hp-banner-content {
+    position: absolute;
+margin: 100px 0px 0px 0px ;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+/* main{border: 2px solid red;
+    width: 100%;
+    height: 500Px;
+    margin: 20px 0px;
+
+    position: absolute;
+  
+} */
+/* main::before{
+    content: '';
+    background: url(/img/1.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 400px;
+    margin: 20px 0px;
+    position: absolute;
+    top: 56.5px;
+    z-index: -1;
+    opacity: 8;
+}
+*/
+/* main picture img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+    position: absolute;
+
+  background: black;
+  
+}
+
+.imgtext{
+
+
+
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+color: white;
+justify-content: center;
+align-items: center;
+} */
+
+/* main h1{position: absolute;
+    bottom: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+} */
+/* main p{position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color:white;
+    margin: 10px 10px 10px 10px;
+} */
+article{position: relative;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 225, 235);
+}
+.div-1{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px gray;
+    border-radius: 10px;
+}
+.div-1 img{
+    width: 100px;
+    height: 200px;
+}
+article i{
+    font-size: 3rem;
+    margin: 10px;
+}
+article h3{
+    text-align: center;
+    margin: 20px;
+}
+article p{
+    text-align: center;
+    line-height: 25px;
+}
+article li{
+    margin: 20px;
+    text-align: center;
+}
+article li a{
+    text-decoration: none;
+}
+article li a i{
+    font-size: 1.4rem;
+    margin: 10px;
+}
+.div-2{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px gray;
+    border-radius: 10px;
+}
+.div-2 button{
+    display: flex;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: rgb(247, 85, 85);
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+section{
+    background-color: white;
+}
+section h1{
+    margin: 40px 100px;
+}
+section h1 i{
+    margin:0px 20px;
+    color: blue;
+}
+section img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.section-1{
+    background-color: rgb(226, 226, 240);
+    padding: 10px;
+}
+.section-2{
+    background-color: rgb(226, 226, 240);
+    padding: 10px;
+}
+.item-2{
+    width: 500px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.item-1{
+   
+    margin: 0px 20px;
+    width: 425px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.item-1 h3{
+    margin: 20px;
+}
+.item-1 h6{
+    margin: 20px;
+    font-size: 0.8rem;
+}
+.item-1 p{
+    margin: 20px;
+    line-height: 30px;
+    color: gray;
+    font-size: 0.8rem;
+}
+.office-1, .office-2, .office-3, .office-4,.office-5, .office-6, .office-7 {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 20px;
+}
+.office-1, .office-3, .office-5, .office-7{
+    flex-wrap: wrap;
+}
+.office-2, .office-4, .office-6{
+    flex-wrap: wrap-reverse;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer h6{
+    text-align: center;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+footer ul li a{
+    color: rgb(184, 179, 179);
+    font-size: 0.8rem;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 10px;
+}
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.footer-1{
+    margin: 20px auto;
+}
+.footer-2{
+    margin: 20px auto;
+}
+.footer-3{
+    margin: 20px auto;
+}
+.footer-4{
+    margin: 20px auto;
+}
+hr{
+    width: 100%;
+    color: gray;
+    margin: 10px;
+}
+.last{
+    margin: 20px;
+}
+.last{
+    display:flex;
+}
+.last ul li a i{
+    color: white;
+}
+footer h1{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h3{
+    margin: 10px;
+}
+footer p{
+    color: rgb(179, 163, 163);
+    text-align: center;
+    margin: 10px;
+}
+@media (max-width:1151px){
+    .checkbtn{
+        display:block;
+   }
+    header{
+        display: none;
+   }
+    nav{
+        position:fixed;
+        top: 0;
+   }
+    .logo {
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin: 0px 10px;
+   }
+    .menu ul{
+        position: fixed;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(211, 191, 230);
+        top: 40px;
+        right: -100vw;
+        text-align: center;
+        transition: all .5s ease-in-out;
+   }
+    nav .menu ul li {
+        display: block;
+        margin: 40px 0px;
+        line-height: 30px;
+   }
+    nav .menu ul li a{
+        font-size: 1rem;
+        display: block;
+   }
+    nav .menu ul li a:hover{
+        background:none;
+        color:gray;
+   }
+    .btn-1{
+        display: none;
+   }
+    .logo img{
+        display: none;
+   }
+    .last{
+        display:flex;
+        flex-wrap: wrap;
+   }
+    #check:checked ~ .menu ul{
+        right: 0;
+   }
+    #check:checked ~ .checkbtn i::before {
+        content: "\f00d";
+   }
+}
